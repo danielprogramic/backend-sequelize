@@ -2,15 +2,15 @@
 
 bash terminal
 
-Step 1
+Step 1 -
 Create Docker container
 docker run --name mybanco -e MYSQL_ROOT_PASSWORD=root -p 6603:3306 -d mysql:5.7
 
-Step 2
+Step 2 -
 Log in container > 
 docker exec -it mybanco mysql -p
 
-Step 3
+Step 3 -
 Create database > 
 create database demo;
 show databases;
