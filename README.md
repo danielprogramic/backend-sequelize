@@ -21,6 +21,7 @@ Use the command to add records
 sequelize db:seed:all
 
 My connection
+```
   "development": {
     "username": "root",
     "password": "root",
@@ -29,6 +30,8 @@ My connection
     "port": "6603",
     "dialect": "mysql"
   },
+```
+
   
 yarn install
 yarn start
